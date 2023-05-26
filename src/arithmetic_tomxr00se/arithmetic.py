@@ -1,6 +1,6 @@
 from typing import Any
 
-class Arithmetic():
+class Arithmetic:
 	
 	#Initialise with inputs
 	def __init__(self, a: Any, b: Any):
@@ -24,8 +24,4 @@ class Arithmetic():
 	
 	def divide(self):
 		return self.a/self.b
-
-if __name__ == "__main__":
-	print("Hello, world!")
-
 
